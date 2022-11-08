@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+/*import { defineConfig } from "vite";
 import { resolve } from 'path'
 
 
@@ -17,17 +17,22 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         meta: resolve(__dirname, 'pages/meta/index.html'),
         physical: resolve(__dirname, 'pages/physical/index.html'),
+        agencia: resolve(__dirname, 'pages/agencia/index.html'),
         espacios: resolve(__dirname, 'pages/espacios/index.html'),
-        agencia: resolve(__dirname, 'pages/agencia/index.html')
+        contacto: resolve(__dirname, 'pages/contacto/index.html'),
+        artistas: resolve(__dirname, 'pages/artistas/index.html'),
+        prensa: resolve(__dirname, 'pages/prensa/index.html'),
+        aplica: resolve(__dirname, 'pages/aplica/index.html')
+        
         
       }
     }
   },
   plugins: []
-});
+});*/
 
 // vite.config.js
-/*import { resolve } from 'path'
+import { resolve } from 'path'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
@@ -35,8 +40,16 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        nested: resolve(__dirname, 'nested/index.html')
+        meta: resolve(__dirname, 'pages/meta/index.html'),
+        physical: resolve(__dirname, 'pages/physical/index.html'),
+        agencia: resolve(__dirname, 'pages/agencia/index.html'),
+        espacios: resolve(__dirname, 'pages/espacios/index.html'),
+        contacto: resolve(__dirname, 'pages/contacto/index.html'),
+        artistas: resolve(__dirname, 'pages/artistas/index.html'),
+        prensa: resolve(__dirname, 'pages/prensa/index.html'),
+        aplica: resolve(__dirname, 'pages/aplica/index.html')
+        
       }
     }
   }
-})*/
+})
