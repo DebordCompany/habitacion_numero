@@ -133,9 +133,7 @@ body {
 
 .container_width {
   max-width: 1200px;
-  padding-top: 7rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding: 0 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,6 +143,7 @@ body {
   color: white;
   font-size: 2rem;
   font-weight: 500;
+  margin-top: 5rem;
   transform: scaleY(-1);
   -moz-transform: scaleY(-1);
   -webkit-transform: scaleY(-1);
