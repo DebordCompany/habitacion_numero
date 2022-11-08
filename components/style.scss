@@ -149,13 +149,13 @@ body {
 
 .container{
     background-color: var(--negro);
-    height: 12000px;
+    
     display: flex;
     justify-content: center;
 }
 .container_width{
     max-width: 1200px;
-    padding-top: 5rem;
+    padding-top: 7rem;
     padding-left: 5rem;
     padding-right: 5rem;
     display: flex;
@@ -181,14 +181,13 @@ body {
 }
 .puertas{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    padding-top: 2rem;
-    @include tablet(){
-        grid-template-columns: 1fr 1fr;
-    }
+    
+    
     @include latop(){
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-top: 4rem;
     }
 }
 .puertas_individual{
@@ -205,10 +204,42 @@ body {
 }
 .physical{
     color: var(--azul-claro);
+    margin-top: 2px;
 }
 .espacios{
     color: var(--rojo);
+    margin-top: 4px;
 }
 .agencia{
     color: var(--amarillo);
+    margin-top: 6px;
+}
+.texto{
+  margin-top: 5rem;
+  max-width: 1000px;
+}
+.texto_center{
+  color: white;
+  text-align: center;
+}
+.categorias{
+  padding-top: 5rem ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  @include latop(){
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.footer{
+  background-color: black;
+  padding: 15rem 0;
+}
+.footer_center{
+  display: flex;
+  justify-content: center;
+}
+.footer_enlaces{
+  max-width: 1200px;
+
 }
