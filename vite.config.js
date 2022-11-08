@@ -16,7 +16,9 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         meta: resolve(__dirname, 'pages/meta/index.html'),
-        physical: resolve(__dirname, 'pages/physical/index.html')
+        physical: resolve(__dirname, 'pages/physical/index.html'),
+        espacios: resolve(__dirname, 'pages/espacios/index.html'),
+        agencia: resolve(__dirname, 'pages/agencia/index.html')
         
       }
     }
