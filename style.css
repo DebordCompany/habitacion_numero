@@ -310,7 +310,7 @@ input:checked + .slider:before {
 
 .footer {
   background-color: black;
-  padding: 15rem 0;
+  padding: 10rem 2rem;
 }
 
 .footer_center {
@@ -319,5 +319,29 @@ input:checked + .slider:before {
 }
 
 .footer_enlaces {
-  max-width: 1200px;
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+@media (min-width: 600px) {
+  .footer_enlaces {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+.back {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 2rem;
+}
+
+.back img {
+  width: 70px;
+  height: auto;
+}
+
+.white {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
