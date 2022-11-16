@@ -1,8 +1,13 @@
 {
+
+    "titulo": {
+        "contenido": "Habitación Número | We are an artistic space located in Usera committed to the new generations of artists."
+    },
     "texto-principal": {
-        "contenido-h1": "Habitación Número 34 es un espacio de arte sin ánimos de lucro basado en Madrid. La misión principal de HN es fomentar el arte joven emergente producido en España a través de instalaciones mensuales, residencias instalativas en directo, residencias sonoras y residencias digitales dentro de nuestro propio Metaverso. El espacio cuenta con un grande escaparate al exterior, lo que permite que cada instalación y proyecto sea visible desde fuera.",
-        "contenido-p1": "HN nace de la idea de recrear el lugar más íntimo y privado de cada artista, su propia habitación. Es donde cada uno le da forma a sus sueños. Aquí, estos sueños no se escapan hacia el cielo, sino más bien caen a la tierra y se materializan. De aquí nacen todas las instalaciones que se presentan mes a mes.",
-        "contenido-p2": "Una de las mayores metas de HN34 es prevalecer como referencia en el sector cultural en cuanto a desarrollo artístico. Crear nuevas integraciones con el arte emergente y confrontar lo ya aprendido en el sector. Estar en constante evolución.",
-        "contenido-p3": "Desde HN34 planteamos que el arte debe ser público y gratuito. Por ello ofrecemos visibilidad a lxs artistas emergentes, quienes tienen mayores dificultades para ser posicionados en el mercado. HN34 plantea una nueva forma de relacionarse con el arte, alejándose de la industria convencional. Queremos movilizar estos proyectos a espacios accesibles y gratuitos, interactuar con diferentes públicos y provocando nuevos modelos de intercambio a través del arte."
+        "contenido-h1": "Room Number 34 is a non-profit art space based in Madrid. HN's main mission is to promote emerging young art produced in Spain through monthly installations, live installation residencies, sound residencies and digital residencies within our own Metaverse. The space has a large window to the outside, which allows each installation and project to be visible from the outside.",
+        "contenido-p1": "HN was born from the idea of ​​recreating the most intimate and private place for each artist, their own room. It is where each one shapes their dreams. Here, these dreams do not escape into the sky, but rather fall to earth and materialize. This is where all the installations that are presented month by month are born.",
+        "contenido-p2": "One of the main goals of HN34 is to prevail as a reference in the cultural sector in terms of artistic development. Create new integrations with emerging art and confront what has already been learned in the sector. Being in constant evolution.",
+        "contenido-p3": "From HN34 we propose that art should be public and free. For this reason, we offer visibility to emerging artists, who have greater difficulties to be positioned in the market. HN34 proposes a new way of relating to art, moving away from the conventional industry. We want to mobilize these projects to accessible and free spaces, interact with different audiences and provoke new models of exchange through art."
     }
+    
 }

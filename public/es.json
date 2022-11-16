@@ -1,8 +1,13 @@
 {
+
+    "titulo": {
+        "contenido": "Habitación Número | Somos espacio artístico ubicado en Usera comprometido con las nuevas generaciones de artistas."
+    },
     "texto-principal": {
         "contenido-h1": "Habitación Número 34 es un espacio de arte sin ánimos de lucro basado en Madrid. La misión principal de HN es fomentar el arte joven emergente producido en España a través de instalaciones mensuales, residencias instalativas en directo, residencias sonoras y residencias digitales dentro de nuestro propio Metaverso. El espacio cuenta con un grande escaparate al exterior, lo que permite que cada instalación y proyecto sea visible desde fuera.",
         "contenido-p1": "HN nace de la idea de recrear el lugar más íntimo y privado de cada artista, su propia habitación. Es donde cada uno le da forma a sus sueños. Aquí, estos sueños no se escapan hacia el cielo, sino más bien caen a la tierra y se materializan. De aquí nacen todas las instalaciones que se presentan mes a mes.",
         "contenido-p2": "Una de las mayores metas de HN34 es prevalecer como referencia en el sector cultural en cuanto a desarrollo artístico. Crear nuevas integraciones con el arte emergente y confrontar lo ya aprendido en el sector. Estar en constante evolución.",
         "contenido-p3": "Desde HN34 planteamos que el arte debe ser público y gratuito. Por ello ofrecemos visibilidad a lxs artistas emergentes, quienes tienen mayores dificultades para ser posicionados en el mercado. HN34 plantea una nueva forma de relacionarse con el arte, alejándose de la industria convencional. Queremos movilizar estos proyectos a espacios accesibles y gratuitos, interactuar con diferentes públicos y provocando nuevos modelos de intercambio a través del arte."
     }
+   
 }
