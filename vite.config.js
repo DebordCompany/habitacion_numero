@@ -50,7 +50,8 @@ export default defineConfig({
         contacto: resolve(__dirname, 'pages/contacto/index.html'),
         artistas: resolve(__dirname, 'pages/artistas/index.html'),
         prensa: resolve(__dirname, 'pages/prensa/index.html'),
-        aplica: resolve(__dirname, 'pages/aplica/index.html')
+        aplica: resolve(__dirname, 'pages/aplica/index.html'),
+        
         
       }
     }

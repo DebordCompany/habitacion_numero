@@ -1,13 +1,13 @@
 @charset "UTF-8";
 :root {
   --negro: #000000;
-  --rojo: #FF000D;
-  --azul-oscuro:#001FFF;
-  --azul-claro:#00FFFF;
-  --amarillo:#F1F819;
-  --marron:#BE6306;
-  --verde:#00FF02;
-  --rosa:#FF00F3;
+  --rojo: #ff000d;
+  --azul-oscuro: #001fff;
+  --azul-claro: #00ffff;
+  --amarillo: #f1f819;
+  --marron: #be6306;
+  --verde: #00ff02;
+  --rosa: #ff00f3;
   --tipografia: "Montserrat", sans-serif;
 }
 
@@ -21,7 +21,11 @@
 }
 
 /* Evitamos problemas con las imagenes */
-img, picture, video, iframe, figure {
+img,
+picture,
+video,
+iframe,
+figure {
   max-width: 100%;
   width: 100%;
   display: block;
@@ -52,7 +56,20 @@ html {
 }
 
 /* Desactivamos estilos por defecto de las principales etiquetas de texto */
-h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, u, em {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+u,
+em {
   font-size: 1em;
   font-weight: inherit;
   font-style: inherit;
@@ -61,7 +78,10 @@ h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, u, em {
 }
 
 /* Evitamos problemas con los pseudoelementos de quotes */
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -78,7 +98,12 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 /* Nivelamos problemas de tipografías y colocación de formularios */
-form, input, textarea, select, button, label {
+form,
+input,
+textarea,
+select,
+button,
+label {
   font-family: inherit;
   font-size: inherit;
   -webkit-hyphens: auto;
@@ -94,7 +119,9 @@ form, input, textarea, select, button, label {
 }
 
 /* Reseteamos las tablas */
-table, tr, td {
+table,
+tr,
+td {
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -125,85 +152,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.switch {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 2rem;
-  gap: 1rem;
-  font-size: 2rem;
-}
-
-.switch_es {
-  color: var(--azul-claro);
-}
-
-.switch_en {
-  color: var(--amarillo);
-}
-
-.switch_label {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-
-/* Hide default HTML checkbox */
-.switch_label input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-/* The slider */
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: var(--azul-claro);
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: var(--rosa);
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-input:checked + .slider {
-  background-color: var(--amarillo);
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px var(--marron);
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 0px;
-}
-
-.slider.round:before {
-  border-radius: 0%;
-}
-
 .container {
   background-color: var(--negro);
   display: flex;
@@ -220,7 +168,7 @@ input:checked + .slider:before {
 
 .p_titulo {
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-top: 5rem;
   transform: scaleY(-1);
@@ -228,6 +176,11 @@ input:checked + .slider:before {
   -webkit-transform: scaleY(-1);
   -o-transform: scaleY(-1);
   margin-bottom: 4rem;
+}
+@media (min-width: 380px) {
+  .p_titulo {
+    font-size: 2rem;
+  }
 }
 @media (min-width: 600px) {
   .p_titulo {
@@ -264,7 +217,12 @@ input:checked + .slider:before {
 }
 
 .puertas_individual_h3 {
-  font-size: 2rem;
+  font-size: 1.4rem;
+}
+@media (min-width: 380px) {
+  .puertas_individual_h3 {
+    font-size: 2rem;
+  }
 }
 
 .meta {
@@ -286,9 +244,94 @@ input:checked + .slider:before {
   margin-top: 6px;
 }
 
+.switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.switch_es {
+  color: var(--azul-claro);
+  font-size: 1.4rem;
+}
+
+.switch_en {
+  color: var(--amarillo);
+  font-size: 1.4rem;
+}
+
+.switch_label {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.switch_label input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--azul-claro);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: var(--rosa);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: var(--amarillo);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--marron);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 0px;
+}
+
+.slider.round:before {
+  border-radius: 0%;
+}
+
 .texto {
-  margin-top: 5rem;
+  padding-top: 1rem;
   max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .texto_center {
@@ -309,13 +352,7 @@ input:checked + .slider:before {
 }
 
 .footer {
-  background-color: black;
   padding: 10rem 2rem;
-}
-
-.footer_center {
-  display: flex;
-  justify-content: center;
 }
 
 .footer_enlaces {
