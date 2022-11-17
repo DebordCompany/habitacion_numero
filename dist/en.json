@@ -1,7 +1,15 @@
 {
-
-    "titulo": {
+    
+    "titulo-pagina": {
         "contenido": "Habitación Número | We are an artistic space located in Usera committed to the new generations of artists."
+    },
+    "puertas": {
+        "residencias": "residences",
+        "instalaciones": "installations",
+        "instalativa": "installation",
+        "sonora": "sonorous"
+
+
     },
     "texto-principal": {
         "contenido-h1": "Room Number 34 is a non-profit art space based in Madrid. HN's main mission is to promote emerging young art produced in Spain through monthly installations, live installation residencies, sound residencies and digital residencies within our own Metaverse. The space has a large window to the outside, which allows each installation and project to be visible from the outside.",

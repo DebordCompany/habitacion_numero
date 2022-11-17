@@ -198,6 +198,7 @@ body {
 
 .p_titulo {
   color: white;
+  text-align: center;
   font-size: 1.5rem;
   font-weight: 500;
   margin-top: 2rem;
@@ -368,6 +369,12 @@ input:checked + .slider:before {
   color: white;
   text-align: center;
 }
+.texto_left{
+  color: white;
+  text-align: left;
+
+}
+
 .categorias {
   padding-top: 5rem;
   display: grid;
@@ -403,4 +410,24 @@ input:checked + .slider:before {
 }
 .white {
   color: white;
+}
+.bases{
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  @include latop(){
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.bases div{
+  padding: 1rem;
+  border: 2px solid var(--amarillo);
+}
+
+.cabecera{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
 }

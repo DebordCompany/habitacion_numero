@@ -1,40 +1,24 @@
-
-
-
 const idioma = document.querySelector("#switch_selector");
 
-const textsToChange = document.querySelectorAll('[data-section]')
+const textsToChange = document.querySelectorAll("[data-section]");
 
-const changeLanguaje = async languaje=>{
+const changeLanguaje = async (languaje) => {
+  const requestJson = await fetch(`/${languaje}.json`);
+  const texts = await requestJson.json();
 
-    const requestJson = await fetch(`/${languaje}.json`)
-    const texts = await requestJson.json();
-    
-   textsToChange.forEach(element => {
-        const section = element.dataset.section;
-        const value = element.dataset.value;
-        element.innerHTML = texts[section][value]
-        
+  textsToChange.forEach((element) => {
+    const section = element.dataset.section;
+    const value = element.dataset.value;
+    element.innerHTML = texts[section][value];
+  });
+};
 
-    });
-    /*for(const item of textsToChange){
-        const section = item.dataset.section;
-        const value = item.dataset.value;
-        item.textContent = texts[section][value];
-        
-    }*/
+idioma.addEventListener("change", () => {
+  if (idioma.checked) {
+    idioma.dataset.languaje = "en";
+  } else {
+    idioma.dataset.languaje = "es";
+  }
 
-
-}
-
-idioma.addEventListener("change", ()=>{
-   
-   if(idioma.checked){
-    idioma.dataset.languaje = "en"
-   }
-   else{
-    idioma.dataset.languaje = "es"
-   }
-    
-    changeLanguaje(idioma.dataset.languaje);
-})
+  changeLanguaje(idioma.dataset.languaje);
+});
