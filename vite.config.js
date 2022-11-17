@@ -44,13 +44,11 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         meta: resolve(__dirname, 'pages/meta/index.html'),
-        physical: resolve(__dirname, 'pages/physical/index.html'),
-        agencia: resolve(__dirname, 'pages/agencia/index.html'),
-        espacios: resolve(__dirname, 'pages/espacios/index.html'),
+        residencias: resolve(__dirname, 'pages/residencias/index.html'),
+        instalaciones: resolve(__dirname, 'pages/instalaciones/index.html'),
         contacto: resolve(__dirname, 'pages/contacto/index.html'),
-        artistas: resolve(__dirname, 'pages/artistas/index.html'),
         prensa: resolve(__dirname, 'pages/prensa/index.html'),
-        aplica: resolve(__dirname, 'pages/aplica/index.html'),
+        
         
         
       }
