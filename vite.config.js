@@ -48,6 +48,8 @@ export default defineConfig({
         instalaciones: resolve(__dirname, 'pages/instalaciones/index.html'),
         contacto: resolve(__dirname, 'pages/contacto/index.html'),
         prensa: resolve(__dirname, 'pages/prensa/index.html'),
+        instalativa: resolve(__dirname, 'pages/residencia-instalativa/index.html'),
+        sonora: resolve(__dirname, 'pages/residencia-sonora/index.html')
         
         
         
