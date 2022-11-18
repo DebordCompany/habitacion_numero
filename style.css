@@ -409,17 +409,49 @@ input:checked + .slider:before {
 }
 @media (min-width: 768px) {
   .bases {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 .bases div {
   padding: 1rem;
+}
+
+.border_rojo {
+  border: 5px solid var(--rojo);
+}
+
+.border_amarillo {
   border: 2px solid var(--amarillo);
+}
+
+.border_azul {
+  border: 3px solid var(--azul-oscuro);
+}
+
+.border_marron {
+  border: 8px solid var(--marron);
 }
 
 .cabecera {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.bases_h3 {
+  font-weight: 300;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.container_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.artistas {
+  padding-top: 8rem;
 }/*# sourceMappingURL=style.css.map */
