@@ -369,6 +369,10 @@ input:checked + .slider:before {
   gap: 2rem;
 }
 
+.categorias_a_img {
+  max-width: 200px;
+}
+
 .footer {
   padding: 10rem 2rem;
 }
@@ -382,6 +386,15 @@ input:checked + .slider:before {
 @media (min-width: 600px) {
   .footer_enlaces {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+.footer_a {
+  padding: 1rem;
+}
+@media (min-width: 600px) {
+  .footer_a {
+    padding: 0.5rem;
   }
 }
 
