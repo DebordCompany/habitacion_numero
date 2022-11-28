@@ -25,14 +25,22 @@ idioma.addEventListener("change", () => {
   changeLanguaje(idioma.dataset.languaje);
 });
 
+// pintar textos desde json
+
+function inclusionTextos(){
+  changeLanguaje(idioma.dataset.languaje);
+}
+inclusionTextos()
+
+
 // cambio orientación portada para latop
 var size = window.matchMedia("(max-width: 768px)")
 const portada = document.querySelector("#portada")
 function cambio(size) {
   if (size.matches) { 
-    portada.src = "/assets/llave_about.png";
+    portada.src = "/assets/plano_vertical.jpg";
   } else {
-    portada.src = "/assets/puerta_meta.png";
+    portada.src = "/assets/plano.jpeg";
   }
 }
 cambio(size) 
