@@ -47,8 +47,13 @@ export default defineConfig({
         residencias: resolve(__dirname, 'pages/residencias/index.html'),
         instalaciones: resolve(__dirname, 'pages/instalaciones/index.html'),
         contacto: resolve(__dirname, 'pages/contacto/index.html'),
-        prensa: resolve(__dirname, 'pages/prensa/index.html'),
+        about: resolve(__dirname, 'pages/about/index.html'),
         instalativa: resolve(__dirname, 'pages/residencia-instalativa/index.html'),
+        archivo: resolve(__dirname, 'pages/archivo/index.html'),
+        djsets: resolve(__dirname, 'pages/djsets/index.html'),
+        performance: resolve(__dirname, 'pages/performance/index.html'),
+        digital: resolve(__dirname, 'pages/residencia-digital/index.html'),
+        progress: resolve(__dirname, 'pages/in-progress/index.html'),
         sonora: resolve(__dirname, 'pages/residencia-sonora/index.html')
         
         

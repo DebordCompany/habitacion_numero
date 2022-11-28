@@ -476,4 +476,6 @@ input:checked + .slider:before {
 }
 .artistas {
   padding-top: 8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
