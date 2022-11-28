@@ -1,3 +1,5 @@
+// cambio de idioma
+
 const idioma = document.querySelector("#switch_selector");
 
 const textsToChange = document.querySelectorAll("[data-section]");
@@ -22,3 +24,16 @@ idioma.addEventListener("change", () => {
 
   changeLanguaje(idioma.dataset.languaje);
 });
+
+// cambio orientación portada para latop
+var size = window.matchMedia("(max-width: 768px)")
+const portada = document.querySelector("#portada")
+function cambio(size) {
+  if (size.matches) { 
+    portada.src = "/assets/llave_about.png";
+  } else {
+    portada.src = "/assets/puerta_meta.png";
+  }
+}
+cambio(size) 
+size.addListener(cambio) 

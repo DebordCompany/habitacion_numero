@@ -414,6 +414,11 @@ input:checked + .slider:before {
   color: white;
 }
 
+.portada {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
 .bases {
   padding-top: 5rem;
   display: grid;
