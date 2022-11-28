@@ -479,3 +479,15 @@ input:checked + .slider:before {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.artistas_a{
+  max-width: 200px;
+}
+.nombres{
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.nombres_a{
+  padding: 0 2rem;
+}

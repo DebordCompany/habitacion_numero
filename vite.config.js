@@ -54,6 +54,10 @@ export default defineConfig({
         performance: resolve(__dirname, 'pages/performance/index.html'),
         digital: resolve(__dirname, 'pages/residencia-digital/index.html'),
         progress: resolve(__dirname, 'pages/in-progress/index.html'),
+        instalacionesYear: resolve(__dirname, 'pages/instalaciones-year/index.html'),
+        el2021: resolve(__dirname, "pages/2021/index.html"),
+        el2022: resolve(__dirname, "pages/2022/index.html"),
+        el2023: resolve(__dirname, "pages/2023/index.html"),
         sonora: resolve(__dirname, 'pages/residencia-sonora/index.html')
         
         
