@@ -429,20 +429,33 @@ input:checked + .slider:before {
     grid-template-columns: 1fr 1fr;
   }
 }
-.bases div {
-  padding: 1rem;
+.bases>div {
+   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .border_rojo {
   border: 5px solid var(--rojo);
+  padding: 1rem;
+ 
+}
+.pomo img{
+  max-width: none;
+  width: 15px;
+  height: 50px;
+  object-fit: none;
 }
 .border_amarillo {
   border: 2px solid var(--amarillo);
+  padding: 1rem;
 }
 .border_azul {
   border: 3px solid var(--azul-oscuro);
+  padding: 1rem;
 }
 .border_marron {
   border: 8px solid var(--marron);
+  padding: 1rem;
 }
 
 .cabecera {
