@@ -186,7 +186,7 @@ body {
   justify-content: center;
 }
 .container_width {
-  max-width: 1200px;
+  max-width: 1000px;
   padding: 0 2rem;
 
   display: flex;
@@ -201,7 +201,7 @@ body {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 500;
-  margin-top: 2rem;
+  margin-top: 1rem;
   transform: scaleY(-1);
   -moz-transform: scaleY(-1);
   -webkit-transform: scaleY(-1);
@@ -212,11 +212,14 @@ body {
   }
   @include tablet() {
     font-size: 3rem;
-    margin-top: 5rem;
+    margin-top: 1rem;
   }
   @include latop() {
     font-size: 4rem;
   }
+}
+.margin-top-5{
+  margin-top: 5rem;
 }
 // puertas
 .puertas {
@@ -406,11 +409,15 @@ input:checked + .slider:before {
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  margin: 2rem;
+  margin: 1rem;
+  
 }
 .back img {
-  width: 70px;
+  width: 100px;
   height: auto;
+  @include phone(){
+    width: 150px;
+  }
 }
 .white {
   color: white;
@@ -490,4 +497,7 @@ input:checked + .slider:before {
 }
 .nombres_a{
   padding: 0 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
 }

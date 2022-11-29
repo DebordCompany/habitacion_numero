@@ -14,23 +14,27 @@ const changeLanguaje = async (languaje) => {
     element.innerHTML = texts[section][value];
   });
 };
-
-idioma.addEventListener("change", () => {
-  if (idioma.checked) {
+if(idioma){
+  idioma.addEventListener("change", () => {
+  if (idioma && idioma.checked) {
     idioma.dataset.languaje = "en";
   } else {
     idioma.dataset.languaje = "es";
   }
 
   changeLanguaje(idioma.dataset.languaje);
+
 });
-
-// pintar textos desde json
-
 function inclusionTextos(){
   changeLanguaje(idioma.dataset.languaje);
 }
 inclusionTextos()
+}
+
+
+// pintar textos desde json
+
+
 
 
 // cambio orientación portada para latop
